@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo&family=Caprasimo&family=Italianno&family=Permanent+Marker&family=Poppins:wght@100;400&family=Roboto:ital,wght@1,900&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: white;
+            color: black;
+            
+        }
+
+        .left {
+            font-size: 40px;
+            position: relative;
+            top: 2px;
+            left: -705px;
+            font-family: 'poppins' sans-serif;
+        }
+
+        .right {
+            position: absolute;
+            left: 50rem;
+            top: 16px;
+            font-size: 20px;
+            color: #565252;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            /* align-items: center;*/
+            height: 60px;
+            background-color: white;
+            font: bold;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(76, 79, 81);
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .leftSection img {
+            margin: 51px;
+            width: 91%;
+            position: relative;
+            top: -101px;
+            left: -121px;
+            height: 25rem;
+        }
+
+        .container {
+            padding: 25px;
+            border: 2px solid black;
+            margin: 20px auto;
+            width: 22rem;
+            height: 30rem;
+            background-color: black;
+            color: white;
+            position: absolute;
+            top: 65px;
+            left: 1100px;
+        }*/
+
+        .container h1 {
+            color: chocolate;
+            font-size: 24px;
+            font-family: 'Poppins';
+            margin-bottom: 10px;
+        }
+
+        .container h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .container p {
+            font-size: 18px;
+        }
+
+
+
+        .heading {
+            font-size: 29px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: chocolate;
+        }
+
+        .sub-heading {
+            font-size: 18px;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .paragraph {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #565252;
+            margin-bottom: 20px;
+        }
+
+        /* .sub-heading {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 339px;
+    left: 739px;
+    }
+    .paragraph2 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #565252;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 400px;
+    left: 739px;
+    }*/
+        span {
+            position: absolute;
+            left: 47px;
+            top: 33rem;
+            font-size: 36px;
+            font-weight: bold;
+            color: black;
+        }
+
+        span1 {
+            position: absolute;
+            top: 33rem;
+            left: 35rem;
+            color: black;
+        }
+
+        .box {
+            position: absolute;
+            top: 39.75rem;
+            left: 35rem;
+            background-color: rgb(219, 81, 81);
+            color: white;
+            padding: 12px;
+
+        }
+
+        .left1 {
+            position: absolute;
+            top: 47rem;
+            left: 1rem;
+            height: 9rem;
+            width: 8rem;
+        }
+
+        .div h1 {
+            position: absolute;
+            top: 47rem;
+            left: 12rem;
+            font-size: xxx-large;
+            color: #565252;
+        }
+
+        .div h2 {
+            position: absolute;
+            top: 51rem;
+            left: 12rem;
+
+        }
+
+        .div p {
+            position: absolute;
+            top: 53rem;
+            left: 12rem;
+            color: #565252
+        }
+
+        .left2 {
+            position: absolute;
+            top: 47rem;
+            left: 36rem;
+            height: 9rem;
+            width: 8rem;
+        }
+
+        .div2 h1 {
+            position: absolute;
+            top: 47rem;
+            left: 45rem;
+            font-size: xxx-large;
+            color: #565252;
+        }
+
+        .div2 h2 {
+            position: absolute;
+            top: 51rem;
+            left: 45rem;
+
+        }
+
+        .div2 p {
+            position: absolute;
+            top: 53rem;
+            left: 45rem;
+            color: #565252
+        }
+
+        .left3 {
+            position: absolute;
+            top: 47rem;
+            left: 65rem;
+            height: 9rem;
+            width: 8rem;
+        }
+
+        .div3 h1 {
+            position: absolute;
+            top: 47rem;
+            left: 75rem;
+            font-size: xxx-large;
+            color: #565252;
+        }
+
+        .div3 h2 {
+            position: absolute;
+            top: 51rem;
+            left: 75rem;
+
+        }
+
+        .div3 p {
+            position: absolute;
+            top: 53rem;
+            left: 75rem;
+            color: #565252
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">W.</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Categories</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="firstSection">
+        <div class="leftSection">
+            <img src="1.png" alt="" class="leftimg">
+        </div>
+        <div class="rightSection">
+            <div class="container">
+                <div class="heading">New</div>
+                <div class="sub-heading">Hydrogen VS Electric Cars</div>
+                <div class="paragraph">Will Hydrogen-fueled cars ever catch up to EVs?</div>
+                <div class="sub-heading">The Downsides of AI Artistry</div>
+                <div class="paragraph">What are the possible adverse effects of on-demand AI image generation?</div>
+                <div class="sub-heading">Is VC Funding Drying Up?</div>
+                <div class="paragraph">Private Fundingby VC firms is down 50% YOY. We take a look at what that means.
+                </div>
+            </div>
+        </div>
+        </div>
+        <span>The Bright <br> Future of <br> web 3.0?</span>
+        <span1>We dive into the next evolution of the web that <br>Claims to put the power of the platforms back <br>
+            Into the hands of the people. But is it really <br> Fulfilling its promise?</span1>
+        <div class="box">READ MORE</div>
+    </section>
+    <section class="div">
+        <div class="navi">
+            <img src="1st.png" alt="" class="left1">
+        </div>
+
+        </div>
+        <div>
+            <h1>01</h1> <br>
+            <h2>Reviving Retro PCs</h2>
+            <p>What happens when old PCs <br> are given modern upgrades?</p>
+
+        </div>
+    </section>
+    <section class="div2">
+        <div class="navi">
+            <img src="2nd.png" alt="" class="left2">
+        </div>
+
+        </div>
+        <div2>
+            <h1>02</h1> <br>
+            <h2>Top 10 Laptop of 2022</h2>
+            <p>Our best picks for various<br> needs and budgets.</p>
+
+        </div2>
+    </section>
+    </section>
+    <section class="div3">
+        <div class="navi">
+            <img src="3rd.png" alt="" class="left3">
+        </div>
+
+        </div>
+        <div3>
+            <h1>03</h1> <br>
+            <h2>The Growing of Gaming</h2>
+            <p>How the pandamic has sparked<br>fresh opportunities.</p>
+
+            </div2>
+    </section>
+
+
+    </section>
+</body>
+
+</html>
